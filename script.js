@@ -22,5 +22,5 @@ buttons.forEach(btn => {
             string += e.target.innerHTML;
             display.value = string;
         }
-            });
-            });
+    });
+});
