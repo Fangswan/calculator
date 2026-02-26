@@ -19,7 +19,7 @@ buttons.forEach(btn => {
                 display.value = 'Error';
             }
         } else {
-            String += e.target.innerHTML;
+            string += e.target.innerHTML;
             display.value = string;
         }
             });
