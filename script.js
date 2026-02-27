@@ -13,7 +13,7 @@ buttons.forEach(btn => {
             display.value = string;
         } else if (e.target.innerHTML == '=') {
             try {
-                if (string === '2+2') {
+                if (string == '2+2') {
                     display.value = 'BOOM! EXPLOSION!';
                 } else {
                 string = eval(string);
