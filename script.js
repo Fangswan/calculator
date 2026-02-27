@@ -19,7 +19,7 @@ buttons.forEach(btn => {
                 string = eval(string);
                 display.value = string;
             } catch (error) {
-                display.value = 'Error';
+                display.value = '💥BOOM!💥';
             }
         } else {
             string += e.target.innerHTML;
