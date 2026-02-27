@@ -14,12 +14,12 @@ buttons.forEach(btn => {
         } else if (e.target.innerHTML == '=') {
             try {
                 if (string === '2+2') {
-                    display.value = '💥BOOM!';
+                    display.value = 'BOOM! EXPLOSION!';
                 }
                 string = eval(string);
                 display.value = string;
             } catch (error) {
-                display.value = '💥BOOM!💥';
+                display.value = 'BOOM! EXPLOSION!';
             }
         } else {
             string += e.target.innerHTML;
