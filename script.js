@@ -14,7 +14,7 @@ buttons.forEach(btn => {
         } else if (e.target.innerHTML == '=') {
             try {
                 if (string.equals('2+2')) {
-                    string = 'EXPLOSION💥';
+                    string = 'EXPLOSION';
                 }
                 string = eval(string);
                 display.value = string;
