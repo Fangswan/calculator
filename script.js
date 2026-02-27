@@ -15,11 +15,12 @@ buttons.forEach(btn => {
             try {
                 if (string === '2+2') {
                     display.value = 'BOOM! EXPLOSION!';
-                }
+                } else {
                 string = eval(string);
                 display.value = string;
+                }
             } catch (error) {
-                display.value = 'BOOM! EXPLOSION!';
+                display.value = 'Error!';
             }
         } else {
             string += e.target.innerHTML;
